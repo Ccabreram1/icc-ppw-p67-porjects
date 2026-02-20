@@ -29,6 +29,7 @@ public class Person {
     private String email;
 
     private String bio;
+    @Column(nullable = false)
     private String profession;
     private String location;
 
